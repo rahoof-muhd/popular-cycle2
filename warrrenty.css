@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 130%;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    gap: 17rem;
+    height: 5rem;
+    width: 100%;
+    line-height: 5rem;
+    vertical-align: middle;
+    background-color: rgba(189, 155, 126, 0.63);
+    position: sticky;
+    top: -1px;
+    box-shadow: -3px 5px 5px 0px rgba(77, 80, 82, 0.438);
+}
+.navbar1{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.195);
+}
+
+.nav-logo img{
+    height: 7rem;
+    position: relative;
+    top: -10px;
+    padding-left: 3rem;
+}
+
+.nav a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav1 a{
+    color: black;
+}
+
+.warrenty-bg img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+}
+
+.box input[type="text"],input[type="email"],input[type="date"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgba(3, 3, 3, 0.223) ;
+    background: transparent;
+    outline: none;
+   
+}
+.box p{
+    margin: 0;
+    padding: 0;
+    color:rgba(3, 3, 3, 0.408)  ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.box{
+    height: 70rem;
+}
+
+.box h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+.box h2{
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(95, 91, 91);
+}
+
+form{
+    padding-top: 5rem;
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 40rem;
+}
+
+.box1 {
+    padding-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.button1{
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+button{
+    height: 2rem;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.empty{
+    height: 5rem;
+}
+
+.login1{
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+}
+
+.login1 h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login1 a{
+    text-decoration: none;
+    color: red;
+}

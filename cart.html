@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script> -->
+    <div class="navbar navbar1" style="background-color:white">
+        <div class="nav-logo"><img src="./images/download (1).webp" alt=""></div>
+        <div class="nav-items"><a href="index.html"><img src="./images/home_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+                    height="30px" style="position: relative; top: 10px;"></a></div>
+        <div class="nav-items"><a href="home.html"><img src="./images/arrow-black.svg" alt="" height="30px"
+                    style="position: relative; top: 10px;"></a></div>
+        <div class="nav-items"><a href=""><img src="./images/cart-black.svg" alt="" height="30px"
+                    style="position: relative; top: 10px; "></a></div>
+    </div>
+    <div class="sec">
+        <div class="sec1">
+            <div class="address address1"><button id="address2">DELIVERY ADDRESS ></button></div>
+
+            <div class="drop drop-address">
+                <div class="address-box">
+                <p>LIG 706, PANAMPILLY NAGAR</p>
+                <p>KOCHI</p>
+                <P>Pin Code: 688206</P>
+                <p>Near KOUZINO CAFE</p>
+                <p>Mobile No: 7994221003</p>
+                </div>
+            </div>
+
+            <div class="item1">
+                <div class="first"><img src="./images/bottlegage.png" alt=""></div>
+                <div class="second">
+                    <h1>BOTTLE CAGE</h1>
+                    <h2>₹470.00</h2>
+                    <h6>color &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;size</h6>
+                    <h4>Black &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free Size</h4>
+                </div>
+                <div class="third">
+                   <div class="box">
+                    <div class="slider">
+                        <input type="range" min="0" max="100" value="10">
+                    </div>
+                    <div class="value">100</div>
+                   </div>
+                   <img src="./images/delete_FILL0_wght400_GRAD0_opsz24.svg" alt="">  
+                </div>
+            </div>
+
+            <div class="item1">
+                <div class="first"><img src="./images/hero3.png" alt="" width="200px" height="150px" style="position: relative; left: 1px;"></div>
+                <div class="second">
+                    <h1>COLT SPORTS 26T</h1>
+                    <h2>₹ 7,460.00</h2>
+                    <h6>color &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tyre Variant</h6>
+                    <h4>Black &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26T|66cms</h4>
+                </div>
+                <div class="third">
+                   <div class="box">
+                    <div class="slider">
+                        <input type="range" min="0" max="100" value="10">
+                    </div>
+                    <div class="value">10</div>
+                   </div>
+                   <img src="./images/delete_FILL0_wght400_GRAD0_opsz24.svg" alt="">  
+                </div>
+            </div>
+
+            <div class="item1">
+                <div class="first"><img src="./images/jersey.png" alt=""></div>
+                <div class="second">
+                    <h1>CYCLING JERSEY</h1>
+                    <h2>₹ 1890.00</h2>
+                    <h6>color &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;size</h6>
+                    <h4>Red &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S</h4>
+                </div>
+                <div class="third">
+                   <div class="box">
+                    <div class="slider">
+                        <input type="range" min="0" max="100" value="10">
+                    </div>
+                    <div class="value">10</div>
+                   </div>
+                   <img src="./images/delete_FILL0_wght400_GRAD0_opsz24.svg" alt="">  
+                </div>
+            </div>
+
+        </div>
+        <div class="price">
+            <div class="price1">
+            <h1>PRICE DETAILS</h1>
+            <p>Total MRP(Incl. GST) &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹9,820.00</p>
+            <p>Discount on MRP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-₹0.00</p>
+            <h2>Total Amount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ₹9,820.00</h2>
+            <button class="price-button">CHECKOUT</button>
+            <h3>COUPONS GALORE!</h3>
+            <input type="text" placeholder="Enter Coupen Code">
+        </div>
+        </div>
+    </div>
+
+    <script>
+        const slider = document.querySelector("input");
+        const value = document.querySelector(".value");
+        value.textContent = slider.value;
+    </script>
+</body>
+
+</html>

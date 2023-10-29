@@ -1,0 +1,234 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.main-page{
+    height: 100%;
+    background-color: aqua;
+    background-image: url(./images/main-bg2.jpg);
+    /* background-color: wheat; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-page h1{
+    position: absolute;
+    color: rgb(244, 177, 234);
+    top: 180px;
+    left: 100px;
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-page h2{
+    position: absolute;
+    color: black;
+    top: 120px;
+    left: 100px;
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-page h3{
+    position: absolute;
+    color: black;
+    top: 215px;
+    left: 100px;
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    gap: 5rem;
+    line-height: 5rem;
+    vertical-align: middle;
+    padding-left: 3rem;
+    height: 5rem;
+    flex-direction: row;
+    color: black;
+    font-size: 18px;
+    box-shadow: -3px 5px 5px 0px rgba(90, 115, 126, 0.438);
+}
+.nav{
+    padding-inline-start: 90px;
+}
+
+.nav a{
+    color: rgba(0, 0, 0, 0.825);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home-page{
+    height: 100%;
+    width: 100%;
+}
+.nav-1{
+    position: relative;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* line-height: 6rem; */
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 30px;   
+    background-color:rgb(26, 24, 24);
+    box-shadow: 0px 0px 10px 0px rgb(150, 146, 146);
+    z-index: 1;
+}
+.nav-items a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg-1{
+    position: relative;
+    height: 87.5vh;
+    width: 100%;
+    object-fit: cover;
+}
+.bg-1 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+.drop{
+    z-index: 1;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color:black;
+}
+
+.drop-store:hover{
+    display: flex;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.store:hover ~ .drop-store{
+    display: flex;
+    height: 30vh; 
+    flex-direction: row;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.store{
+    height: 10vh;
+}
+.brand img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+.nav-logo img{
+    height: 7rem;
+    position: relative;
+    top: -10px;
+}
+
+.drop1{
+    z-index: 1;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 32%;
+}
+
+.drop2{
+    z-index: 1;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 55%;
+    width: 20rem;
+}
+.drop1-accesories:hover{
+    display:flex;
+    flex-direction: column;
+    height: 30vh;
+    gap: 1.5rem;
+    padding-left: 4.5rem;
+    padding-top: 3rem;
+    place-items: left;
+
+}
+.accesories:hover ~ .drop1-accesories{
+    display: flex;
+    flex-direction: column;
+    place-items: left;
+    padding-top: 3rem;
+    height: 30vh; 
+    box-sizing: border-box;
+    gap: 1.5rem;
+    padding-left: 4.5rem;
+}
+
+.accesories{
+    height: 10vh;
+}
+
+
+.drop2-services:hover{
+    display:flex;
+    flex-direction: column;
+    height: 30vh;
+    gap: 1.5rem;
+    padding-left: 4.5rem;
+    padding-top: 3rem;
+    place-items: left;
+
+}
+.services:hover ~ .drop2-services{
+    display: flex;
+    flex-direction: column;
+    place-items: left;
+    padding-top: 3rem;
+    height: 30vh; 
+    box-sizing: border-box;
+    gap: 1.5rem;
+    padding-left: 4.5rem;
+}
+
+.services{
+    height: 10vh;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.items a::after{
+    position: absolute;
+    content: ' ';
+    background: red;
+    height: 2px;
+    width: 0;
+    top: 22px;
+    left: 1px;
+    box-sizing: border-box;
+}
+.items a:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    position: sticky;
+    top: -1px;
+    display: flex;
+    gap: 17rem;
+    height: 5rem;
+    width: 100%;
+    line-height: 5rem;
+    vertical-align: middle;
+    background-color: rgb(194, 159, 138);
+    box-shadow: -3px 5px 10px 0px rgb(194, 159, 138);
+    z-index: 1;
+}
+
+.nav-logo img{
+    height: 7rem;
+    position: relative;
+    top: -10px;
+    padding-left: 3rem;
+}
+
+.nav a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bg img{
+    object-fit: cover;
+    width: 100%;
+    height: 40rem;
+    background-position: bottom;
+}
+
+.bg{
+    height: 40rem;
+}
+
+.bg h1{
+    box-sizing: border-box;
+    position: relative;
+    top: -550px;
+    /* padding-top: 550px; */
+    padding-left: 100px;
+    font-size: 7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg h2{
+    position: relative;
+    top: -580px;
+    padding-left: 100px;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.contact{
+    float: left;
+    height: 40rem;
+    width: 60%;
+}
+
+.touch{
+    width: 100%;
+    height: 40rem;
+}
+
+.contact h1{
+    padding-left: 100px;
+    padding-top: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.668);
+   
+}
+
+.contact h2{
+    position: relative;
+    top: -10px;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+.contact h3{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.contact h4{
+    padding-left: 100px;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+
+.contact h5{
+    padding-left: 100px;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+.contact h6{
+    padding-left: 100px;
+    font-size: 1.2rem;
+    color: rgb(178, 51, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact h6 a{
+    text-decoration: none;
+}
+
+
+.contact p{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+.touch h1{
+    padding-left: 100px;
+    padding-top: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.668);
+   
+}
+
+.touch h2{
+    position: relative;
+    top: -10px;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 0.5rem;
+}
+
+button{
+    width: 4rem;
+    background-color: rgb(228, 87, 87);
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: 600;
+}
